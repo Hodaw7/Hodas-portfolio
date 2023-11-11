@@ -75,3 +75,43 @@ a {
 .green-border {
   border: 1px solid var(--primary-color);
 }
+
+@media (max-width: 617px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  h3 {
+    font-size: 17px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+  h2,
+  p,
+  a {
+    text-align: center;
+  }
+  .container a {
+    display: block;
+    max-width: 70%;
+    margin: auto;
+  }
+  img {
+    display: none;
+  }
+}
+
+@media (min-width: 991px) {
+  h2,
+  p,
+  a {
+    text-align: center;
+  }
+  .container a {
+    display: block;
+    max-width: 70%;
+    margin: auto;
+  }
+}
